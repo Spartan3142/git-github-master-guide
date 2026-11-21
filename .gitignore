@@ -1,0 +1,5 @@
+# .gitignore
+*.tmp
+temp/
+private-notes.txt
+.DS_Store
