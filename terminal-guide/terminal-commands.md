@@ -76,3 +76,77 @@ touch notes.txt
 # PowerShell varianti:
 New-Item notes.txt -ItemType File
 ```
+
+## 9. cat — fayl mazmunini ko‘rish
+
+**Vazifasi:** Matnli fayl ichidagi yozuvlarni terminalda chiqaradi.
+
+**Qachon ishlatiladi:** Faylni ochmasdan ichini tez ko‘rish uchun.
+
+```bash
+cat notes.txt
+```
+
+## 10. clear — terminalni tozalash
+
+**Vazifasi:** Terminal oynasidagi avvalgi matnlarni ekrandan tozalaydi. Fayllarni o‘chirmaydi.
+
+**Qachon ishlatiladi:** Ekran to‘lib ketganda.
+
+```bash
+clear
+```
+
+## 11. cp — nusxa olish
+
+**Vazifasi:** Fayl yoki papkadan nusxa yaratadi.
+
+**Qachon ishlatiladi:** Faylning zaxira nusxasi kerak bo‘lganda.
+
+```bash
+cp notes.txt notes-copy.txt
+```
+
+## 12. mv — ko‘chirish yoki nomini o‘zgartirish
+
+**Vazifasi:** Fayl yoki papkani boshqa joyga ko‘chiradi yoki nomini o‘zgartiradi.
+
+**Qachon ishlatiladi:** Faylni boshqa papkaga o‘tkazish yoki nomini almashtirish kerak bo‘lganda.
+
+```bash
+mv old.txt new.txt
+```
+
+## 13. rm — fayl o‘chirish
+
+**Vazifasi:** Ko‘rsatilgan faylni o‘chiradi. Faqat mashq uchun yaratilgan faylda ehtiyotkorlik bilan ishlating.
+
+**Qachon ishlatiladi:** Keraksiz sinov faylini olib tashlash uchun.
+
+```bash
+rm notes-copy.txt
+```
+
+> Xavfsizlik: `rm` faylni o‘chiradi va qaytarib bo‘lmaydi. Faqat o‘zingiz yaratgan sinov fayllarini o‘chiring. `rm -rf` kabi xavfli buyruqlarni ishlatmang.
+
+## 14. git init — repository yaratish
+
+**Vazifasi:** Joriy papkada yangi Git repository boshlaydi.
+
+**Qachon ishlatiladi:** Yangi loyihani Git bilan kuzatishni boshlashda.
+
+```bash
+mkdir my-project
+cd my-project
+git init
+```
+
+## 15. git status — Git holatini tekshirish
+
+**Vazifasi:** Git repository’dagi yangi, o‘zgargan va stagingga qo‘shilgan fayllar holatini ko‘rsatadi.
+
+**Qachon ishlatiladi:** Commit qilishdan oldin va keyin, nima o‘zgarganini ko‘rish uchun.
+
+```bash
+git status
+```
